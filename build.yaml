@@ -1,2 +1,5 @@
+# Built by GitHub Actions on every push. Download the .uf2 from the Actions run's "Artifacts".
 include:
-  - board: bs_lp_60
+  - board: bs_lp_60//zmk
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y

@@ -1,0 +1,7 @@
+board:
+  name: bs_lp_60
+  vendor: boardsource
+  socs:
+    - name: nrf52840
+      variants:
+        - name: zmk

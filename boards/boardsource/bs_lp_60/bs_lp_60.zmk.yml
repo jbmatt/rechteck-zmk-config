@@ -1,0 +1,10 @@
+file_format: "1"
+id: bs_lp_60//zmk
+name: bs_lp_60
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble

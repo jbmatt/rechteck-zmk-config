@@ -1,14 +1,8 @@
-# ZMK Config repo for Rechtek by Boardsource
+# ZMK config — Boardsource Rechteck (`bs_lp_60`)
 
-## How to use this template
-1. Log in or create a Github account.
-2. Click the big green button above that says **"Use this template"**
-then select **"Create a new repository"**.
+Personal fork of [boardsource/Rechtek_zmk_config](https://github.com/boardsource/Rechtek_zmk_config).
 
-![use template button](https://images.boardsource.xyz/Screenshot%202023-10-20%20115310.png)
-
-After that you will have a copy of this repository in your Github account,
-to use with [this ZMK keymap GUI tool](https://nickcoutsos.github.io/keymap-editor/).
-
-For a more in depth guide please see our [guide](https://www.boardsource.xyz/docs/guides-zmkgui) on using only GUIs to configure your ZMK keyboard.
-
+- Keymap: `config/bs_lp_60.keymap`
+- Board definition (Zephyr HWMv2, ZMK Studio enabled): `boards/boardsource/bs_lp_60/` — from [boardsource/Rechtek-zmk-config#2](https://github.com/boardsource/Rechtek-zmk-config/pull/2), since the upstream board no longer builds on current ZMK.
+- Every push builds firmware in **Actions** → download the `firmware` artifact → double-tap reset → drag `.uf2` onto the drive.
+- Live remap: https://zmk.studio over USB (unlock with Fn + Backspace).
